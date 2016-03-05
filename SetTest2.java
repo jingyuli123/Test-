@@ -6,7 +6,7 @@ public class SetTest2 {
 		
 		HashSet set = new HashSet();
 		
-		//set.add(new People("张三"));
+		//set.add(new People("lisi"));
 		//set.add(new People("lisi"));
 		//set.add(new People("万物"));
 		
