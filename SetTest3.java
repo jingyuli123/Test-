@@ -12,7 +12,7 @@ public class SetTest3 {
 		set.add(s1);
 		set.add(s2);
 		
-		System.out.println(set);
+		System.out.println(set);//[Student@32b093]
 	}
 	
 }
