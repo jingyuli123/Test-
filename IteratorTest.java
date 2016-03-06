@@ -12,13 +12,18 @@ public class IteratorTest {
 		set.add("d");
 		set.add("e");
 		
-		Iterator iter = set.iterator();
+		//Iterator iter = set.iterator();
 		
-		while(iter.hasNext()){
+		//while(iter.hasNext()){
 			
+			//String value = (String)iter.next();
+			//System.out.println(value);
+			
+		//}
+		
+		for (Iterator iter = set.iterator();iter.hasNext(); ) {
 			String value = (String)iter.next();
 			System.out.println(value);
-			
 		}
 		
 	}
