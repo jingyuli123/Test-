@@ -13,8 +13,6 @@ public class TreeSetTest {
 		set.add("a");
 		
 		System.out.println(set);//[a, b, c, d]
-		
-		
 	}
 	
 }
