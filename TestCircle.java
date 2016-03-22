@@ -10,12 +10,11 @@ public class TestCircle {
 		int i2 = c1.compareTo(c3);
 		int i3 = c2.compareTo(c1);
 		
-		System.out.println(i1);
-		System.out.println(i2);
-		System.out.println(i3);
+		System.out.println(i1);//1
+		System.out.println(i2);//0
+		System.out.println(i3);//-1
 	}
 }
-
 interface CompareObject {
 	int compareTo(Object o);
 }
